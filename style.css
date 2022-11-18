@@ -8,17 +8,78 @@ body {
     font-weight: 400;
 }
 
+
+
+
+
+.link,
+.link:hover,
+.link:active {
+    text-decoration: none;
+}
+
 .hover:hover{
     opacity: 0.8;
     cursor: pointer;
 }
-.hover-green {
-    transition: background-color .25s;
+
+
+
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
-.hover-green:hover {
+
+
+.logo {
+    font-size: 45px;
+    transition: opacity 0.3s;
+    display: flex;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+    .logo__part-monte {
+        color: #1cc254;
+        font-weight: 900;
+        border: 2px solid #1cc254;
+    }
+
+    .logo__part-rent {
+        color: black;
+        font-weight: 600;
+        border: 2px solid black;
+        border-left: none;
+    }
+
+
+.green-button {
+    height: 40px;
+    padding: 0;
+    border: none;
+    background-color: #1cc254;
+    transition: background-color 0.25s;
+}
+
+.green-button:hover {
     background-color: #18a247;
     cursor: pointer;
 }
+
+    .green-button__text {
+        font-weight: 500;
+        font-size: 15px;
+        margin: 0;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .green-button__svg {
+        fill: white;
+    }
 
 
 
@@ -36,69 +97,54 @@ header{
         justify-content: space-between;
         align-items: center;
         height: 100px;
-        max-width: 1440px;
-        margin: 0 auto;
     }
-        .header-upper-logo {
-            font-size: 45px;
-            font-weight: 600;
-            border: 2px solid black;
-            border-left: none;
-            transition: opacity 0.3s;
-            margin-left: 20px;
-        }
-            .header-upper-logo span {
-                color: #1cc254;
-                font-weight: 900;
-                border: 2px solid #1cc254;
-            }
 
-        .header-upper-info_container {
+        .header__info {
             display: flex;
             align-items: center;
-            margin-right: 20px;
         }
-            .header-upper-tel {
+
+            .header__tel {
+                padding-right: 20px;
                 font-size: 20px;
-                padding: 10px;
+                color: black;
                 transition: opacity 0.3s;
             }
-            .header-upper-buttons {
+
+            .header__buttons {
                 display: flex;
             }
-                .my-account-button {
-                    color: white;
-                    font-weight: 400;
-                    background-color: #1cc254;
-                    padding: 10px 15px;
-                    border: none;
-                    text-transform: uppercase;
-                    height: 36px;
+
+                .header__acc-button {
+                    padding: 0 20px;
                 }
-                .cart-button {
+
+                .header__cart-button {
                     margin-left: 1px;
-                    background-color: #1cc254;
-                    fill: white;
                 }
 
 
-    .header-lower {
+    .header__lower {
         background-color: #333;
         margin-bottom: 25px;
     }
-        .header-lower-wrapper {
-            margin: 0 auto;
-            max-width: 1440px;
+        .header__lower-inner {
             display: flex;
             justify-content: space-between;
             color: rgba(255, 255, 255, 0.85);
             height: 50px;
             font-weight: 400;
         }
-            .header-lower-nav_container {
+
+
+
+
+            .menu-list {
                 display: flex;
-                margin-left: 20px;
             }
+                .menu__item {
+                    padding-right: 20px;
+                }
                 .header-lower-nav_container div {
                     padding: 15px 20px;
                     text-transform: uppercase;
@@ -111,12 +157,18 @@ header{
                         cursor: pointer;
                     }
 
+
+
+
+
+
+
+
             .header-lower-search_container {
                 height: 100%;
                 display: flex;
                 align-items: center;
                 position: relative;
-                margin-right: 20px;
             }
                 .header-lower-input {
                     height: 100%;
