@@ -1,0 +1,60 @@
+@import url(elements.css);
+
+
+
+.main {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 25px;
+}
+    .main__vertical-menu {
+        position: sticky;
+        top: 25px;
+        padding-bottom: 50px;
+    }
+
+    .main__content {
+    }
+        .main__content-section {
+            display: inline-block;
+            padding-bottom: 30px;
+            width: 100%;
+        }
+
+            .main__person-img {
+                float: left;
+                width: 40%;
+                min-width: 300px;
+                object-fit: cover;
+                margin-right:  25px;
+            }
+
+            .main__old-auto-img {
+                float: right;
+                width: 300px;
+                object-fit: cover;
+                margin-left: 15px;
+            }
+
+            .main__text-heading {
+                color: #1cc254;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 10px
+            }
+
+            .main__text {
+                text-indent: 50px;
+                font-size: 18px;
+                margin-top: 0;
+                margin-bottom: 10px
+
+            }
+
+
+
+
+
+
+
+
