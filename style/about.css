@@ -1,5 +1,8 @@
 @import url(elements.css);
 
+/*вынести это в элементы если надо*/
+
+
 
 
 .main {
@@ -15,13 +18,12 @@
 
     .main__content {
     }
-        .main__content-section {
-            display: inline-block;
-            padding-bottom: 30px;
-            width: 100%;
+
+        .story-section {
+            margin-bottom: 50px;
         }
 
-            .main__person-img {
+            .story-section__owner-img {
                 float: left;
                 width: 40%;
                 min-width: 300px;
@@ -29,27 +31,59 @@
                 margin-right:  25px;
             }
 
-            .main__old-auto-img {
+            .story-section__car-img {
                 float: right;
-                width: 300px;
+                width: 40%;
                 object-fit: cover;
                 margin-left: 15px;
             }
 
-            .main__text-heading {
+            .story-section__text-heading {
                 color: #1cc254;
                 text-align: center;
                 margin-top: 0;
                 margin-bottom: 10px
             }
 
-            .main__text {
+            .story-section__text {
                 text-indent: 50px;
-                font-size: 18px;
+                font-size: 20px;
                 margin-top: 0;
                 margin-bottom: 10px
-
             }
+
+
+        .feedback-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            row-gap: 25px;
+        }
+
+
+        .videos-section {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            row-gap: 25px;
+        }
+
+
+
+
+
+        .img {
+
+        }
+        .mask_02 {
+            -webkit-mask-image: url(https://daydream.ru/assets/app/img/img_mask_02.svg);
+            mask-image: url(https://daydream.ru/assets/app/img/img_mask_02.svg);
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            -webkit-mask-size: 100%;
+            mask-size: 100%;
+        }
+
 
 
 

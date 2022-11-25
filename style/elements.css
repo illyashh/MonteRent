@@ -110,6 +110,91 @@ body {
 
 
 
+
+.ig-post {
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 5px;
+}
+
+.ig-post__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ig-post__photo-nick-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ig-post__profile-photo {
+    padding: 8px;
+    width: 45px;
+    border-radius: 50px;
+}
+
+.ig-post__profile-nickname {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.ig-post__view-profile-btn {
+    margin: 5px;
+    padding: 4px 8px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    transition: color 0.2s, background-color 0.2s;
+}
+.ig-post__view-profile-btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.ig-post__buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+.ig-post__like-btn {
+    margin-right: 8px;
+}
+
+.ig-post__photo {
+    display: inline-block;
+    width: 350px;
+}
+
+.ig-post__description {
+    padding: 8px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+.watch-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px;
+}
+
+.watch-more__button {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+
+
 /*------------------------------------*\
     #HEADER
 \*------------------------------------*/
