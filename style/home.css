@@ -236,6 +236,9 @@
             padding-bottom: 30px;
             color: #F4F4F4;
         }
+        .news-section__label:hover {
+            text-decoration: underline;
+        }
 
         .news-section__content {
             display: grid;

@@ -1,0 +1,63 @@
+@import url(elements.css);
+
+.news {
+    margin-bottom: 70px;
+}
+
+    .news__heading {
+        color: #1cc254;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 10px
+    }
+
+
+    .news__date-container {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+        .news__time-icon {
+            margin-right: 5px;
+        }
+
+        .news__date {
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+
+    .news__img {
+        float: left;
+        align-self: center;
+        width: 60%;
+        min-width: 300px;
+        object-fit: cover;
+        margin-right:  25px;
+    }
+
+    .news__subtitle {
+        text-align: center;
+    }
+
+    .news__text {
+        text-indent: 50px;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 10px
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
