@@ -214,12 +214,40 @@ header{
     align-items: center;
 }
 
-.header__tel {
-    padding-right: 20px;
-    color: black;
-    font-size: 20px;
-    transition: opacity 0.3s;
+.tel {
+    display: flex;
+    align-items: center;
+
 }
+
+    .tel__number {
+        font-size: 20px;
+        transition: opacity 0.3s;
+    }
+
+    .tel__hours-label {
+        font-size: 12px;
+        text-align: right;
+    }
+
+.tel__watch-container {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    font-size: 26px;
+    margin-left: 5px;
+    margin-right: 1px;
+    height: 40px;
+    vertical-align: center;
+    border: 1px solid #1cc254;
+
+}
+.tel__watch {
+    margin: 0;
+}
+
+
+
 
 .header__buttons {
     display: flex;
