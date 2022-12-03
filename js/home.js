@@ -9,14 +9,14 @@ window.addEventListener('load', function(){
   rightSwitcher.addEventListener('click', rightSwitcherFunc)
 
 
-  let photo1 = "<img class=\"slider__photo\" src=\"img/glc1.jpg\"" +
-    " alt=\"glc63s\">"
+  let photo1 = "<img class=\"slider__photo\" src=" +
+    "\"../img/glc1.jpg\" alt=\"glc63s\">"
 
-  let photo2 = "<img class=\"slider__photo\" src=\"img/glc2.jpg\"" +
-    " alt=\"glc63s\">"
+  let photo2 = "<img class=\"slider__photo\" src=" +
+    "\"../img/glc2.jpg\" alt=\"glc63s\">"
 
-  let photo3 = "<img class=\"slider__photo\" src=\"img/glc3.jpg\"" +
-    " alt=\"glc63s\">"
+  let photo3 = "<img class=\"slider__photo\" src=" +
+    "\"../img/glc3.jpg\" alt=\"glc63s\">"
 
 
 

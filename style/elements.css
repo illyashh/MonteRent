@@ -246,6 +246,9 @@ header{
     margin: 0;
 }
 
+.tel__colon--hidden {
+    visibility: hidden;
+}
 
 
 
