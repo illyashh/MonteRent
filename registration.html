@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Registration</title>
-    <link href="style/about.css" rel="stylesheet">
+    <link href="style/registration.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32"
+          href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+          href="img/favicon-16x16.png">
 </head>
 <body>
 
-<header class="header">
+<header class="header registration-header">
 
     <div class="container">
 
@@ -142,6 +146,23 @@
     </div>
 </header>
 
+<div class="container">
+
+    <div class="form">
+        <div class="topic-label form__label">Sing Up</div>
+        <div class="form__inner">
+            <h1 class="form__welcome">Welcome</h1>
+            <p class="form__text">Let's create your account!</p>
+            <input class="form__username-input" placeholder="Username">
+            <input class="form__email-input" placeholder="Email">
+            <a>
+                <button class="green-button form__button">Submit</button>
+            </a>
+        </div>
+
+    </div>
+</div>
+
 <footer class="footer">
     <div class="container">
         <div class="footer__inner">
@@ -230,6 +251,7 @@
     </div>
 </footer>
 
+<script src="js/registration.js"></script>
 <script src="js/watch.js"></script>
 </body>
 </html>

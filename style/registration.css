@@ -1,0 +1,59 @@
+@import url(elements.css);
+.registration-header {
+    margin-bottom: 0;
+}
+.form {
+    width: 400px;
+    height: 400px;
+    margin: 102px auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+    .form__label {
+        margin: 0;
+    }
+    .form__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 350px
+    }
+
+    .form__welcome {
+        color: #1cc254;
+        font-size: 40px;
+        margin: 0 0 5px;
+    }
+
+    .form__text {
+        font-size: 22px;
+        margin: 0 0 20px;
+    }
+
+    .form__username-input,
+    .form__email-input {
+        padding: 10px 30px;
+        font-size: 22px;
+        margin: 10px 0;
+        border: 1px solid #1cc254;
+        outline: 0;
+    }
+
+    .form__username-input:focus,
+    .form__email-input:focus {
+        outline: 0;
+        box-shadow: 0 0 2px #1cc254;
+    }
+
+    .form__username-input--red-border,
+    .form__email-input--red-border {
+        border: 1px solid red;
+    }
+
+    .form__button {
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 22px;
+    }

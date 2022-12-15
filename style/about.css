@@ -1,4 +1,7 @@
 @import url(elements.css);
+body {
+    /*scroll-behavior: smooth;*/
+}
 
 
 
@@ -16,6 +19,11 @@
 
     .main__content {
     }
+            .main__story-label,
+            .main__feedback-label,
+            .main__videos-label {
+                scroll-behavior: smooth;
+            }
 
         .story-section {
             margin-bottom: 50px;
